@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Course Subscriptions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                
+                <li><a href="#subscription">Subscription</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>WELCOME TO COURSELAN</h1>
+            <p>Join our community and start your language journey with interactive courses.</p>
+            <a href="#subscription" class="cta-button">Get Started</a>
+        </div>
+    </header>
+    
+            
+        
+       
+        </section>
+    
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to helping you learn new languages through engaging and interactive courses. Our experienced instructors are here to guide you every step of the way.</p>
+        </section>
+    
+        <!-- Rest of your existing sections -->
+    </body>
+    
+
+    <section id="courses">
+        <h2>Course Offerings</h2>
+        <p>Choose from a variety of languages including Spanish, French, and Mandarin.</p>
+        <div class="course-features">
+            <ul>
+                <li>Interactive lessons</li>
+                <li>Personalized learning plans</li>
+                <li>Experienced instructors</li>
+                <li>Mobile-friendly access</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="benefits">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Flexible scheduling</li>
+            <li>Affordable pricing</li>
+            <li>Community support and forums</li>
+            <li>Progress tracking and certificates</li>
+        </ul>
+        <div class="testimonials">
+            <h3>What Our Students Say</h3>
+            <blockquote>"I love the interactive lessons!" - Jane D.</blockquote>
+        </div>
+    </section>
+
+    <section id="subscription">
+        <h2>Subscription Plans</h2>
+        <div class="pricing-table">
+            <div class="plan">
+                <h3>ENGLISH</h3>
+                <h4>MOST POPULAR </h4>
+                <p>2000/month</p>
+                <a href="#" class="cta-button">SubscribeNow</a>
+            </div>
+            <div class="plan">
+                <h3>FRENCH</h3>
+                <p>4000/month</p>
+                <a href="#" class="cta-button">SubscribeNow</a>
+            </div>
+            <div class="plan">
+                <h3>JAPANESE</h3>
+                <p>3000/month</p>
+                <a href="#" class="cta-button">SubscribeNow</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form action="#" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit" class="cta-button">Login</button>
+        </form>
+    </section>
+
+    <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3 class="faq-question">How long are the courses?</h3>
+            <p class="faq-answer">Courses typically last between 4 to 12 weeks, depending on the language and level.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">What materials do I need?</h3>
+            <p class="faq-answer">All materials are provided online, including videos, quizzes, and reading materials.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">Can I cancel my subscription anytime?</h3>
+            <p class="faq-answer">Yes, you can cancel your subscription at any time without any penalties.</p>
+        </div>
+        <div class="faq-item">
+            <h3 class="faq-question">Are there any free trials?</h3>
+            <p class="faq-answer">Yes, we offer a 7-day free trial for new users to explore our courses.</p>
+        </div>
+    </section>
+    
+    <script>
+        // JavaScript to toggle FAQ answers
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+   
+
+    <footer>
+        <p>Contact us: email@example.com | Phone: (123) 456-7890</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>

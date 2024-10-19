@@ -1,0 +1,180 @@
+#login {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ecf0f1;
+    border-radius: 8px;
+}
+
+#login form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login label {
+    margin: 10px 0 5px;
+}
+
+#login input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login button {
+    padding: 10px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2c3e50;
+    color: #2da77c;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-features ul,
+.benefits ul,
+.plan {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan {
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background: #2c3e50;
+    color: white;
+}
+nav {
+    background: #34495e; /* Darker background for the nav */
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+   /* Center the links */
+}
+
+.nav-links li {
+    margin: 0 15px; /* Space between links */
+}
+
+.nav-links a {
+    color: #ecf0f1; /* Light text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+header {
+    background: url('rm373batch13-085.jpg') no-repeat center center/cover;
+    color: #2da77c;
+    padding: 40px 20px;
+    text-align: center;
+    height: 300px; /* Adjust the height as needed */
+}
+#about {
+    background-color: rgb(93, 113, 106); /* Blue background color */
+    color: rgb(31, 31, 31); /* White text color for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better appearance */
+}
+#courses{
+    background-color: #77db34a3; /* Blue background color */
+    color:rgb(50, 49, 49); /* White text color for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better appearance */
+}
+
+#benefits{
+    background-color: #348ddba3; /* Blue background color */
+    color:white; /* White text color for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better appearance */
+}
+nav {
+    background: #34495e; /* Darker background for the nav */
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Enable flexbox */
+    justify-content: space-around; /* Distribute links evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.nav-links li {
+    margin: 0; /* Remove margin to avoid uneven spacing */
+}
+
+.nav-links a {
+    color: #ecf0f1; /* Light text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+#subscription{
+    background-color: #ea1212a3; /* Blue background color */
+    color:rgb(17, 16, 16); /* White text color for contrast */
+    padding: 20px;
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better appearance */
+}
